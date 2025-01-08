@@ -1,6 +1,7 @@
 import type {Country} from '../types'
 
 export const countries:Country[] = [
+  { code: 'CL', name: 'Chile' },
     { code: 'US', name: 'Estados Unidos' },
     { code: 'MX', name: 'México' },
     { code: 'AR', name: 'Argentina' },
