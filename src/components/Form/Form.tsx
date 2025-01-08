@@ -36,7 +36,7 @@ export default function Form({fetchWeather}: FormProps) {
         <form className={style.form} onSubmit={handleSubmit}>
             {alert && <Alert>{alert}</Alert>}
             <div className={style.field}>
-                <label htmlFor="city">Ciudad:</label>
+                <label htmlFor="city">Ciudad Local:</label>
                 <input id="city" type="text" name="city" placeholder="Ciudad" value={search.city} onChange={handleChange} />
             </div>
             <div className={style.field}>
